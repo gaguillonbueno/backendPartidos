@@ -1,0 +1,15 @@
+com\javainuse\controller\EquipoController.class
+com\javainuse\controller\PartidoController.class
+com\javainuse\instance\MensajeInstancia.class
+com\javainuse\dao\EquipoDao.class
+com\javainuse\instance\UsuarioInstancia.class
+com\javainuse\model\Partido.class
+com\javainuse\model\Usuario.class
+com\javainuse\service\EquipoService.class
+com\javainuse\model\Equipo.class
+com\javainuse\instance\PartidoInstancia.class
+com\javainuse\service\PartidoService.class
+com\javainuse\dao\PartidoDao.class
+com\javainuse\service\UsuarioService.class
+com\javainuse\instance\EquipoInstancia.class
+com\javainuse\controller\UsuarioController.class
