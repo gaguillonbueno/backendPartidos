@@ -9,7 +9,7 @@
 ### 5. Luego desde la carpeta raiz del proyecto ejecutamos los siguientes comandos para compilar proyecto Maven:
 - mvn package
 - mvn eclipse:eclipse
-- mvn spring-boot run
+- mvn spring-boot:run
 
 ```
 Nota:
