@@ -26,7 +26,7 @@ public class PartidoService {
     //Por defecto el repositorio al extender de JPA trae el metodo por defecto
     public List<Partido> listaPartido(){
         List<Partido> partidos = new ArrayList();
-        partidoDao.findAll().forEach(partidos::add);
+        partidoDao.findAllByOrderByFechaAsc().forEach(partidos::add);
         return partidos;
     }
 
