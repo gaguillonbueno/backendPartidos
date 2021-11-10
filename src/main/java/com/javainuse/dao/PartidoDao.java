@@ -9,4 +9,5 @@ import com.javainuse.model.Usuario;
 @Repository
 public interface PartidoDao extends CrudRepository<Partido, Integer> {
     Iterable<Partido> findAllByUsuario(Usuario usuario);
+    public Iterable<Partido> findAllByOrderByFechaAsc();
 }
